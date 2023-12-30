@@ -1,4 +1,4 @@
-use std::fmt::Debug;
+// use std::fmt::Debug;
 
 type Array<T> = Vec<T>;
 
@@ -8,7 +8,7 @@ struct ArrayList<T> {
     inner: Array<T>,
 }
 
-impl<T: Debug + Default + Clone + PartialEq> ArrayList<T> {
+impl<T: Default + Clone + PartialEq> ArrayList<T> {
     pub fn new() -> ArrayList<T> {
         ArrayList {
             length: 0,
