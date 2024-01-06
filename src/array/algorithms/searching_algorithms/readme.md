@@ -1,0 +1,1 @@
+![Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/)

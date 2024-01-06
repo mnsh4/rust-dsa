@@ -34,3 +34,13 @@ fn main() {
     println!("Array Length: {}", arr.len());
 }
 ```
+
+***¿Por qué se necesitan estructuras de datos de array?***
+
+Supongamos que hay una clase de cinco estudiantes y si tenemos que mantener registros de sus calificaciones en los exámenes, podemos hacerlo declarando cinco variables individuales y manteniendo un registro de los registros, pero ¿qué pasa si el número de estudiantes se vuelve muy grande? difícil manipular y mantener los datos.
+
+Lo que significa es que podemos usar variables normales (v1, v2, v3, ...) cuando tenemos una pequeña cantidad de objetos. Pero si queremos almacenar una gran cantidad de instancias, resulta difícil administrarlas con variables normales. La idea de una matriz es representar muchas instancias en una variable
+
+<p align="center">
+  <a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=ds_lp" target="blank"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220728175153/Needforarray-660x379.png" width="" alt="Array Data Structure" /></a>
+</p>
