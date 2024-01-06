@@ -30,7 +30,7 @@ Lo primero y más importante es dividir el procedimiento total en pequeñas part
 
 El motivo principal para utilizar DSA es ´resolver un problema de forma eficaz y eficiente´. ¿Cómo puedes decidir si un programa escrito por ti es eficiente o no? Esto se mide por las complejidades. La complejidad es de dos tipos:
 
-1. Complejidad del tiempo: la complejidad del tiempo se utiliza para medir la cantidad de tiempo necesaria para ejecutar el código.
+1. **Complejidad del tiempo:** la complejidad del tiempo se utiliza para medir la cantidad de tiempo necesaria para ejecutar el código.
 
 Comprender la complejidad del tiempo con ejemplos simples:
 
@@ -53,7 +53,7 @@ El O(n) si un estudiante tenía el bolígrafo y solo él lo sabía .
 
 La búsqueda O(log n) si todos los estudiantes lo supieran , pero solo me diría si adiviné el lado correcto. 
 
-2. Complejidad espacial: la complejidad espacial significa la cantidad de espacio necesaria para ejecutar con éxito las funcionalidades del código. 
+2. **Complejidad espacial:** la complejidad espacial significa la cantidad de espacio necesaria para ejecutar con éxito las funcionalidades del código. 
 
 Ambas complejidades anteriores se miden con respecto a los parámetros de entrada. Pero aquí surge un problema. El tiempo necesario para ejecutar un código depende de varios factores, como por ejemplo: 
 
@@ -63,12 +63,14 @@ Entonces, ¿cómo podemos determinar cuál es eficiente? La respuesta es el uso 
 
 Las siguientes tres notaciones asintóticas se utilizan principalmente para representar la complejidad temporal de los algoritmos:
 
-Big-O Notation (Ο): la Big-O Notation describe específicamente el peor de los casos.
-Omega Notation (Ω): la notación Omega (Ω) describe específicamente el mejor de los casos.
-Theta Notation (θ): esta notación representa la complejidad promedio de un algoritmo.
+**Big-O Notation (Ο):** la Big-O Notation describe específicamente el peor de los casos.
+
+**Omega Notation (Ω):** la notación Omega (Ω) describe específicamente el mejor de los casos.
+
+**Theta Notation (θ):** esta notación representa la complejidad promedio de un algoritmo.
 
 La notación más utilizada en el análisis de un código es la notación O grande , que proporciona un límite superior del tiempo de ejecución del código (o la cantidad de memoria utilizada en términos de tamaño de entrada)
 
 <p align="center">
-  <a href="https://www.freecodecamp.org/news/all-you-need-to-know-about-big-o-notation-to-crack-your-next-coding-interview-9d575e7eec4/" target="blank"><img src="https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg" width="" alt="DSA" /></a>
+  <a href="https://www.freecodecamp.org/news/all-you-need-to-know-about-big-o-notation-to-crack-your-next-coding-interview-9d575e7eec4/" target="blank"><img src="https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg" width="" alt="Big-O Notation (Ο)" /></a>
 </p>
