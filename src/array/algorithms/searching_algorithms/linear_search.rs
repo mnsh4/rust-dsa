@@ -1,5 +1,3 @@
-// Los algoritmos de búsqueda están diseñados para buscar un elemento o recuperar un elemento de cualquier estructura de datos donde esté almacenado
-
 fn linear_search(item: &T, arr: &[T]) -> i32 {
     let mut idx_pos = -1; 
 

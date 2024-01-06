@@ -22,3 +22,4 @@ Rendimiento en el mejor de los casos O(1)
 Rendimiento promedio del caso O(n)
 Peor caso de complejidad espacial O(1) iterativo
 
+### Binary Search
