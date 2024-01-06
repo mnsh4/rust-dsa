@@ -24,8 +24,8 @@ mod tests {
 
     #[test]
     fn test_linear_search_not_found() {
-        let arr = vec!["Argentina", "Japon", "Paraguay"];
-        let target = &"Japon"; 
+        let arr = vec!["The", "New", "York", "Times"];
+        let target = &"York"; 
 
         assert_eq!(linear_search(&arr, target), None);
     }
